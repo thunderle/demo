@@ -1,85 +1,85 @@
-## Next.js Marketplace
+# NextAdmin - Next.js Admin Dashboard Template and Components
 
-Now updated to connect to the new dashboard and [Cosmic JavaScript SDK](https://www.npmjs.com/package/@cosmicjs/sdk). [Read the article](https://www.cosmicjs.com/blog/4-steps-to-update-the-nextjs-marketplace-template) to learn about the latest updates.
+**NextAdmin** is a Free, open-source Next.js admin dashboard toolkit featuring 200+ UI components and templates that come with pre-built elements, components, pages, high-quality design, integrations, and much more to help you create powerful admin dashboards with ease.
 
-The Next.js Marketplace is a template that you can use to start your own digital art marketplace. Download for free.
 
-![Cosmic uNFT](https://user-images.githubusercontent.com/1950722/178328933-c6f0008f-a188-4678-9420-404dd1f02871.gif)
+[![nextjs admin template](https://cdn.pimjo.com/nextadmin-2.png)](https://nextadmin.co/)
 
-## Technology used
 
-This template uses the following technologies:
+**NextAdmin** provides you with a diverse set of dashboard UI components, elements, examples and pages necessary for creating top-notch admin panels or dashboards with **powerful** features and integrations. Whether you are working on a complex web application or a basic website, **NextAdmin** has got you covered.
 
-- [Next.js](https://nextjs.org/) - scalable and high-performance **React.js** framework for modern web development. Provides a large set of features, such as hybrid rendering, route prefetching, automatic image optimization, and internationalization, out of the box.
-- [Cosmic](https://www.cosmicjs.com/) - fast, fully managed [headless CMS](https://www.cosmicjs.com/headless-cms) that enables us to quickly manage and create website content including UGC (user-generated content).
-- [Stripe](https://stripe.com/) - payments infrastructure that provides API tools to receive one-time and subscription payments.
+### [✨ Visit Website](https://nextadmin.co/)
+### [🚀 Live Demo](https://demo.nextadmin.co/)
+### [📖 Docs](https://docs.nextadmin.co/)
 
-### Links
+By leveraging the latest features of **Next.js 14** and key functionalities like **server-side rendering (SSR)**, **static site generation (SSG)**, and seamless **API route integration**, **NextAdmin** ensures optimal performance. With the added benefits of **React 18 advancements** and **TypeScript** reliability, **NextAdmin** is the ultimate choice to kickstart your **Next.js** project efficiently.
 
-- [View the live demo](https://c-marketplace-cosmicjs.vercel.app/)
-- [Install the template](https://www.cosmicjs.com/marketplace/templates/nextjs-marketplace)
-- [Read how it was built](https://www.cosmicjs.com/articles/build-a-digital-art-marketplace-with-nextjs-cosmic-and-stripe)
+## Installation
 
-## Getting started
+1. Download/fork/clone the repo and Once you're in the correct directory, it's time to install all the necessary dependencies. You can do this by typing the following command:
 
-1. First, install the [template](https://www.cosmicjs.com/marketplace/templates/unft-marketplace) into your Cosmic account to get the demo content ready.
-2. Then download and install the code on your machine.
-
-```bash
-git clone https://github.com/cosmicjs/unft-marketplace
-cd unft-marketplace
-pnpm install
-# or
-yarn
-# or
+```
 npm install
 ```
+If you're using **Yarn** as your package manager, the command will be:
 
-### Environment variables
-
-You'll need to create a `.env` file in the root of the project and add the access keys for Cosmic and Stripe. This can be done by copying the `.env.example`.
-
-```bash
-cp .env.example .env
+```
+yarn install
 ```
 
-**Cosmic**: Go to [Cosmic](https://app.cosmicjs.com/) and from the Bucket that you installed the app template go to _Bucket Settings > API Access_ and get your API access keys.
+2. Okay, you're almost there. Now all you need to do is start the development server. If you're using **npm**, the command is:
 
-**Stripe**: Log in to [Stripe](https://dashboard.stripe.com/) and get your keys in the **for developers** section.
-
-Add your keys to the `.env` file like so:
-
-```bash
-# .env
-NEXT_PUBLIC_COSMIC_BUCKET_SLUG=your_cosmic_slug
-NEXT_PUBLIC_COSMIC_READ_KEY=your_cosmic_read_key
-COSMIC_WRITE_KEY=your_cosmic_write_key
-
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
 ```
-
-### Then run the development server
-
-```bash
-pnpm dev
-# OR
-yarn dev
-# OR
 npm run dev
 ```
+And if you're using **Yarn**, it's:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+yarn dev
+```
 
-## Deploy on Vercel
+And voila! You're now ready to start developing. **Happy coding**!
 
-<p>Use the following button to deploy to <a href="https://vercel.com/" rel="noopener noreferrer" target="_blank">Vercel</a>. You will need to add your environment variables before deployment.</p>
-<p>
-<a href="https://vercel.com/import/git?c=1&s=https://github.com/cosmicjs/unft-marketplace&env=NEXT_PUBLIC_COSMIC_BUCKET_SLUG,NEXT_PUBLIC_COSMIC_READ_KEY,COSMIC_WRITE_KEY,NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,STRIPE_SECRET_KEY&envDescription=Required%20to%20connect%20the%20app%20with%20Cosmic&envLink=https://vercel.link/cms-cosmic-env" rel="noopener noreferrer" target="_blank"><img src="https://cdn.cosmicjs.com/d3f0d5e0-c064-11ea-9a05-6f8a16b0b14c-deploy-to-vercel.svg" style="width: 100px;" class="fr-fic fr-dib fr-fil"></a>
-</p>
+## Highlighted Features
+**200+ Next.js Dashboard Ul Components and Templates** - includes a variety of prebuilt **Ul elements, components, pages, and examples** crafted with a high-quality design.
+Additionally, features seamless **essential integrations and extensive functionalities**.
 
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- A library of over **200** professional dashboard UI components and elements.
+- Five distinctive dashboard variations, catering to diverse use-cases.
+- A comprehensive set of essential dashboard and admin pages.
+- More than **45** **Next.js** files, ready for use.
+- Styling facilitated by **Tailwind CSS** files.
+- A design that resonates premium quality and high aesthetics.
+- A handy UI kit with assets.
+- Over ten web apps complete with examples.
+- Support for both **dark mode** and **light mode**.
+- Essential integrations including - Authentication (**NextAuth**), Database (**Postgres** with **Prisma**), and Search (**Algolia**).
+- Detailed and user-friendly documentation.
+- Customizable plugins and add-ons.
+- **TypeScript** compatibility.
+- Plus, much more!
 
-## License
+All these features and more make **NextAdmin** a robust, well-rounded solution for all your dashboard development needs.
 
-This project is published under the [MIT](LICENSE) license.
+## Update Logs
+
+### Version 1.2.1 - [Mar 20, 2025]
+- Fix Peer dependency issues and NextConfig warning.
+- Updated apexcharts and react-apexhcarts to the latest version.
+
+### Version 1.2.0 - Major Upgrade and UI Improvements - [Jan 27, 2025]
+
+- Upgraded to Next.js v15 and updated dependencies
+- API integration with loading skeleton for tables and charts.
+- Improved code structure for better readability.
+- Rebuilt components like dropdown, sidebar, and all ui-elements using accessibility practices.
+- Using search-params to store dropdown selection and refetch data.
+- Semantic markups, better separation of concerns and more.
+
+### Version 1.1.0
+- Updated Dependencies
+- Removed Unused Integrations
+- Optimized App
+
+### Version 1.0
+- Initial Release - [May 13, 2024]
